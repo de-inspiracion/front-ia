@@ -1,0 +1,47 @@
+h1 {
+   color: rgb(12, 172, 189); 
+} 
+
+#header {
+    background-color: rgb(55, 55, 55);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+}
+
+#content-chat {
+    background-color: rgb(239, 239, 239);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: end;   
+    padding: 10px;
+    flex-direction: column;
+}
+
+#content-message{
+    display: flex;
+    justify-content: right;
+}
+
+#message-ia{
+    width: auto;
+    min-height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: azure;
+    background-color: rgb(54, 54, 233);
+    margin-bottom: 10px;
+}
+
+#message-user{
+    width: auto;
+    min-height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: azure;
+    background-color: rgb(13, 227, 134);
+    margin-bottom: 10px;
+}
